@@ -14,7 +14,6 @@ header {
       overflow:hidden;
       display:inline-block;
     }
-<style>
     * { margin:0; padding:0; box-sizing:border-box; font-family: 'Segoe UI', sans-serif; }
 
     header h1 { color:#38bdf8; }
@@ -28,7 +27,7 @@ header {
       height:100vh; display:flex; align-items:center; justify-content:center;
       flex-direction:column; text-align:center;
       background:linear-gradient(rgba(15,23,42,0.7), rgba(15,23,42,0.9)),
-      url('hero-bg.jpeg');
+      url('img/hero-bg.jpeg');
       background-size:cover; background-position:center;
     }
 
@@ -89,4 +88,4 @@ header {
       .about { grid-template-columns:1fr; }
       .hero h2 { font-size:2rem; }
     }
-  </style>
+  
